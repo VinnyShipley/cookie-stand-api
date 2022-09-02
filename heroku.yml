@@ -4,4 +4,4 @@ build:
 release:
   image: web
 run:
-  web: gunicorn project.wsgi --workers 4
+  web: /bin/ -c gunicorn\ project.wsgi\ --workers\ 4
